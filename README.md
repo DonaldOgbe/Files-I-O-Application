@@ -31,9 +31,9 @@ public class Main {
 
         System.out.println("Database: " + dbName);
         System.out.println("App Name: " + appName);
+        String appName = config.get("application.name");
     }
-}   String appName = config.get("application.name");
-}
+}   
 ```
 
 

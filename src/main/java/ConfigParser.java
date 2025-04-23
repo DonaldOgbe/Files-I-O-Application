@@ -70,7 +70,7 @@ public class ConfigParser {
         }
     }
 
-    // Method to add data to the hashmap
+    
     public void addToMap(String[] data, String section) {
         if (data.length != 2) {
             System.err.println("Warning: Skipping malformed line: " + String.join("=", data));
@@ -81,7 +81,7 @@ public class ConfigParser {
         ConfigParser.parsedKeyValuePair.put(key, data[1].trim());
     }
 
-    // Method to get value from key
+
     public String get(String key) {
         return parsedKeyValuePair.get(key);
     }

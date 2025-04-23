@@ -1,5 +1,5 @@
 
-# Files I/O Application - Config File Parser (Week 2 Project - Decago Curriculum)
+# Files I/O Application - Config File Parser (Week 2 Project - Decagon Curriculum)
 
 This project demonstrates how to handle file input and output in Java by parsing environment-based configuration files. It simulates a real-world scenario where applications behave differently based on the environment (e.g., development, staging, production).
 

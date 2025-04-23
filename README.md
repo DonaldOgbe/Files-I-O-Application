@@ -1,11 +1,15 @@
 
-# Files I/O Application - Config File Parser (Week 2 Project - Decagon Curriculum)
+# 🗂 Files I/O Application
 
 This project demonstrates how to handle file input and output in Java by parsing environment-based configuration files. It simulates a real-world scenario where applications behave differently based on the environment (e.g., development, staging, production).
 
 The application reads .txt config files at startup, processes the values into a Map, and allows retrieval of data using dot-notation keys like application.name.
 
-## Features
+## 📅 Decagon curriculum
+
+- ✅ Decagon curriculum Week 2 Complete: Config File Parser
+
+## 🛠️ Features
 
 - Parses custom .txt configuration files
 - Supports nested sections (e.g. [application]) using dot-notation
@@ -14,7 +18,7 @@ The application reads .txt config files at startup, processes the values into a 
 - Graceful handling of missing file names with a default fallback
 
 
-## Usage/Examples
+## 🧾 Usage/Examples
 
 
 ```java
